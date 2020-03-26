@@ -1,7 +1,7 @@
 table {  position: absolute;
     width: 80%; 
     top: 0;
-   height:80%; box-sizing: border-box; box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); font-family: 'Ubuntu'; /*border-collapse: collapse;*/ border-spacing: 0; background-color: #333333; }
+   height:90%; box-sizing: border-box; box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1); font-family: 'Ubuntu'; /*border-collapse: collapse;*/ border-spacing: 0; background-color: #333333; }
 
 th, td { border: 1px solid rgba(255,255,255,0.1); box-sizing: border-box; }
 
@@ -23,3 +23,17 @@ span.event-multiday-start { margin-right: 0px;  }
 span.event-multiday-finish { margin-left: 0px;  }
 
 span.event-ghost { background-color:transparent; }
+
+.boton
+{
+    display: block;
+    margin: 0px 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 150%;    
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
